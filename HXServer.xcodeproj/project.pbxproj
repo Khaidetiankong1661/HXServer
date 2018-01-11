@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B71894220073948008E5965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71894120073948008E5965 /* AppDelegate.swift */; };
+		7B71894420073948008E5965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71894320073948008E5965 /* ViewController.swift */; };
+		7B71894620073948008E5965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B71894520073948008E5965 /* Assets.xcassets */; };
+		7B71894920073949008E5965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B71894720073949008E5965 /* Main.storyboard */; };
+		7B7189552007394A008E5965 /* HXServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7189542007394A008E5965 /* HXServerTests.swift */; };
+		7B7189602007394A008E5965 /* HXServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71895F2007394A008E5965 /* HXServerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B7189512007394A008E5965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B71893620073947008E5965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B71893D20073947008E5965;
+			remoteInfo = HXServer;
+		};
+		7B71895C2007394A008E5965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B71893620073947008E5965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B71893D20073947008E5965;
+			remoteInfo = HXServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B71893E20073948008E5965 /* HXServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B71894120073948008E5965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B71894320073948008E5965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B71894520073948008E5965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B71894820073949008E5965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B71894A20073949008E5965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B71894B20073949008E5965 /* HXServer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HXServer.entitlements; sourceTree = "<group>"; };
+		7B7189502007394A008E5965 /* HXServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7189542007394A008E5965 /* HXServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXServerTests.swift; sourceTree = "<group>"; };
+		7B7189562007394A008E5965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B71895B2007394A008E5965 /* HXServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B71895F2007394A008E5965 /* HXServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXServerUITests.swift; sourceTree = "<group>"; };
+		7B7189612007394A008E5965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B71893B20073947008E5965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B71894D2007394A008E5965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7189582007394A008E5965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B71893520073947008E5965 = {
+			isa = PBXGroup;
+			children = (
+				7B71894020073948008E5965 /* HXServer */,
+				7B7189532007394A008E5965 /* HXServerTests */,
+				7B71895E2007394A008E5965 /* HXServerUITests */,
+				7B71893F20073948008E5965 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B71893F20073948008E5965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B71893E20073948008E5965 /* HXServer.app */,
+				7B7189502007394A008E5965 /* HXServerTests.xctest */,
+				7B71895B2007394A008E5965 /* HXServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B71894020073948008E5965 /* HXServer */ = {
+			isa = PBXGroup;
+			children = (
+				7B71894120073948008E5965 /* AppDelegate.swift */,
+				7B71894320073948008E5965 /* ViewController.swift */,
+				7B71894520073948008E5965 /* Assets.xcassets */,
+				7B71894720073949008E5965 /* Main.storyboard */,
+				7B71894A20073949008E5965 /* Info.plist */,
+				7B71894B20073949008E5965 /* HXServer.entitlements */,
+			);
+			path = HXServer;
+			sourceTree = "<group>";
+		};
+		7B7189532007394A008E5965 /* HXServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B7189542007394A008E5965 /* HXServerTests.swift */,
+				7B7189562007394A008E5965 /* Info.plist */,
+			);
+			path = HXServerTests;
+			sourceTree = "<group>";
+		};
+		7B71895E2007394A008E5965 /* HXServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B71895F2007394A008E5965 /* HXServerUITests.swift */,
+				7B7189612007394A008E5965 /* Info.plist */,
+			);
+			path = HXServerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B71893D20073947008E5965 /* HXServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7189642007394A008E5965 /* Build configuration list for PBXNativeTarget "HXServer" */;
+			buildPhases = (
+				7B71893A20073947008E5965 /* Sources */,
+				7B71893B20073947008E5965 /* Frameworks */,
+				7B71893C20073947008E5965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXServer;
+			productName = HXServer;
+			productReference = 7B71893E20073948008E5965 /* HXServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B71894F2007394A008E5965 /* HXServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B7189672007394A008E5965 /* Build configuration list for PBXNativeTarget "HXServerTests" */;
+			buildPhases = (
+				7B71894C2007394A008E5965 /* Sources */,
+				7B71894D2007394A008E5965 /* Frameworks */,
+				7B71894E2007394A008E5965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B7189522007394A008E5965 /* PBXTargetDependency */,
+			);
+			name = HXServerTests;
+			productName = HXServerTests;
+			productReference = 7B7189502007394A008E5965 /* HXServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B71895A2007394A008E5965 /* HXServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B71896A2007394A008E5965 /* Build configuration list for PBXNativeTarget "HXServerUITests" */;
+			buildPhases = (
+				7B7189572007394A008E5965 /* Sources */,
+				7B7189582007394A008E5965 /* Frameworks */,
+				7B7189592007394A008E5965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B71895D2007394A008E5965 /* PBXTargetDependency */,
+			);
+			name = HXServerUITests;
+			productName = HXServerUITests;
+			productReference = 7B71895B2007394A008E5965 /* HXServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B71893620073947008E5965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wang;
+				TargetAttributes = {
+					7B71893D20073947008E5965 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7B71894F2007394A008E5965 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B71893D20073947008E5965;
+					};
+					7B71895A2007394A008E5965 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7B71893D20073947008E5965;
+					};
+				};
+			};
+			buildConfigurationList = 7B71893920073947008E5965 /* Build configuration list for PBXProject "HXServer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B71893520073947008E5965;
+			productRefGroup = 7B71893F20073948008E5965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B71893D20073947008E5965 /* HXServer */,
+				7B71894F2007394A008E5965 /* HXServerTests */,
+				7B71895A2007394A008E5965 /* HXServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B71893C20073947008E5965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B71894620073948008E5965 /* Assets.xcassets in Resources */,
+				7B71894920073949008E5965 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B71894E2007394A008E5965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7189592007394A008E5965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B71893A20073947008E5965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B71894420073948008E5965 /* ViewController.swift in Sources */,
+				7B71894220073948008E5965 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B71894C2007394A008E5965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7189552007394A008E5965 /* HXServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7189572007394A008E5965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7189602007394A008E5965 /* HXServerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B7189522007394A008E5965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B71893D20073947008E5965 /* HXServer */;
+			targetProxy = 7B7189512007394A008E5965 /* PBXContainerItemProxy */;
+		};
+		7B71895D2007394A008E5965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B71893D20073947008E5965 /* HXServer */;
+			targetProxy = 7B71895C2007394A008E5965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B71894720073949008E5965 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B71894820073949008E5965 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B7189622007394A008E5965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B7189632007394A008E5965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7B7189652007394A008E5965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HXServer/HXServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WSW3225UBX;
+				INFOPLIST_FILE = HXServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.HXServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7B7189662007394A008E5965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HXServer/HXServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WSW3225UBX;
+				INFOPLIST_FILE = HXServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.HXServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		7B7189682007394A008E5965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WSW3225UBX;
+				INFOPLIST_FILE = HXServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.HXServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXServer.app/Contents/MacOS/HXServer";
+			};
+			name = Debug;
+		};
+		7B7189692007394A008E5965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WSW3225UBX;
+				INFOPLIST_FILE = HXServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.HXServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HXServer.app/Contents/MacOS/HXServer";
+			};
+			name = Release;
+		};
+		7B71896B2007394A008E5965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WSW3225UBX;
+				INFOPLIST_FILE = HXServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.HXServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = HXServer;
+			};
+			name = Debug;
+		};
+		7B71896C2007394A008E5965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WSW3225UBX;
+				INFOPLIST_FILE = HXServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.HXServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = HXServer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B71893920073947008E5965 /* Build configuration list for PBXProject "HXServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7189622007394A008E5965 /* Debug */,
+				7B7189632007394A008E5965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B7189642007394A008E5965 /* Build configuration list for PBXNativeTarget "HXServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7189652007394A008E5965 /* Debug */,
+				7B7189662007394A008E5965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B7189672007394A008E5965 /* Build configuration list for PBXNativeTarget "HXServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7189682007394A008E5965 /* Debug */,
+				7B7189692007394A008E5965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B71896A2007394A008E5965 /* Build configuration list for PBXNativeTarget "HXServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B71896B2007394A008E5965 /* Debug */,
+				7B71896C2007394A008E5965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B71893620073947008E5965 /* Project object */;
+}
