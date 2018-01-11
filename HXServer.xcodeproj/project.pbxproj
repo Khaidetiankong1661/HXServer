@@ -13,6 +13,14 @@
 		7B71894920073949008E5965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B71894720073949008E5965 /* Main.storyboard */; };
 		7B7189552007394A008E5965 /* HXServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7189542007394A008E5965 /* HXServerTests.swift */; };
 		7B7189602007394A008E5965 /* HXServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71895F2007394A008E5965 /* HXServerUITests.swift */; };
+		7B71897420073A82008E5965 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71896F20073A82008E5965 /* ysocket.swift */; };
+		7B71897520073A82008E5965 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B71897020073A82008E5965 /* ytcpsocket.c */; };
+		7B71897620073A82008E5965 /* ytcpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71897120073A82008E5965 /* ytcpsocket.swift */; };
+		7B71897720073A82008E5965 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B71897220073A82008E5965 /* yudpsocket.c */; };
+		7B71897820073A82008E5965 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71897320073A82008E5965 /* yudpsocket.swift */; };
+		7B71897A20073D72008E5965 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71897920073D72008E5965 /* ServerManager.swift */; };
+		7B71897C20073F5B008E5965 /* ClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71897B20073F5B008E5965 /* ClientManager.swift */; };
+		C8309A3FA96CBDFD362ACC3B /* Pods_HXServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465227644676553ED4EED731 /* Pods_HXServer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03598558CB836F30FEC79C3C /* Pods-HXServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HXServer/Pods-HXServer.debug.xcconfig"; sourceTree = "<group>"; };
+		465227644676553ED4EED731 /* Pods_HXServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A812B3DCE1B6D4A20CA006B /* Pods-HXServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HXServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HXServer/Pods-HXServer.release.xcconfig"; sourceTree = "<group>"; };
 		7B71893E20073948008E5965 /* HXServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B71894120073948008E5965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B71894320073948008E5965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +57,13 @@
 		7B71895B2007394A008E5965 /* HXServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B71895F2007394A008E5965 /* HXServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HXServerUITests.swift; sourceTree = "<group>"; };
 		7B7189612007394A008E5965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B71896F20073A82008E5965 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		7B71897020073A82008E5965 /* ytcpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ytcpsocket.c; sourceTree = "<group>"; };
+		7B71897120073A82008E5965 /* ytcpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ytcpsocket.swift; sourceTree = "<group>"; };
+		7B71897220073A82008E5965 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		7B71897320073A82008E5965 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
+		7B71897920073D72008E5965 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		7B71897B20073F5B008E5965 /* ClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8309A3FA96CBDFD362ACC3B /* Pods_HXServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +99,8 @@
 				7B7189532007394A008E5965 /* HXServerTests */,
 				7B71895E2007394A008E5965 /* HXServerUITests */,
 				7B71893F20073948008E5965 /* Products */,
+				C72DB77D8677BB8E9F8D5CEB /* Pods */,
+				FC872C4A3537CB711AA5C7FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,7 @@
 		7B71894020073948008E5965 /* HXServer */ = {
 			isa = PBXGroup;
 			children = (
+				7B71896D20073A7D008E5965 /* HXServerSocket */,
 				7B71894120073948008E5965 /* AppDelegate.swift */,
 				7B71894320073948008E5965 /* ViewController.swift */,
 				7B71894520073948008E5965 /* Assets.xcassets */,
@@ -124,6 +146,45 @@
 			path = HXServerUITests;
 			sourceTree = "<group>";
 		};
+		7B71896D20073A7D008E5965 /* HXServerSocket */ = {
+			isa = PBXGroup;
+			children = (
+				7B71896E20073A82008E5965 /* ysocket */,
+				7B71897920073D72008E5965 /* ServerManager.swift */,
+				7B71897B20073F5B008E5965 /* ClientManager.swift */,
+			);
+			path = HXServerSocket;
+			sourceTree = "<group>";
+		};
+		7B71896E20073A82008E5965 /* ysocket */ = {
+			isa = PBXGroup;
+			children = (
+				7B71896F20073A82008E5965 /* ysocket.swift */,
+				7B71897020073A82008E5965 /* ytcpsocket.c */,
+				7B71897120073A82008E5965 /* ytcpsocket.swift */,
+				7B71897220073A82008E5965 /* yudpsocket.c */,
+				7B71897320073A82008E5965 /* yudpsocket.swift */,
+			);
+			path = ysocket;
+			sourceTree = "<group>";
+		};
+		C72DB77D8677BB8E9F8D5CEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03598558CB836F30FEC79C3C /* Pods-HXServer.debug.xcconfig */,
+				5A812B3DCE1B6D4A20CA006B /* Pods-HXServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC872C4A3537CB711AA5C7FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				465227644676553ED4EED731 /* Pods_HXServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B7189642007394A008E5965 /* Build configuration list for PBXNativeTarget "HXServer" */;
 			buildPhases = (
+				6FF2E17C94881CD30FBD59EE /* [CP] Check Pods Manifest.lock */,
 				7B71893A20073947008E5965 /* Sources */,
 				7B71893B20073947008E5965 /* Frameworks */,
 				7B71893C20073947008E5965 /* Resources */,
+				9346024420DC3990AA2CE19A /* [CP] Embed Pods Frameworks */,
+				D9B665B589873898180EFF76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,13 +316,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FF2E17C94881CD30FBD59EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9346024420DC3990AA2CE19A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXServer/Pods-HXServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9B665B589873898180EFF76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HXServer/Pods-HXServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B71893A20073947008E5965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B71897A20073D72008E5965 /* ServerManager.swift in Sources */,
+				7B71897420073A82008E5965 /* ysocket.swift in Sources */,
 				7B71894420073948008E5965 /* ViewController.swift in Sources */,
+				7B71897720073A82008E5965 /* yudpsocket.c in Sources */,
+				7B71897520073A82008E5965 /* ytcpsocket.c in Sources */,
 				7B71894220073948008E5965 /* AppDelegate.swift in Sources */,
+				7B71897620073A82008E5965 /* ytcpsocket.swift in Sources */,
+				7B71897820073A82008E5965 /* yudpsocket.swift in Sources */,
+				7B71897C20073F5B008E5965 /* ClientManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +532,7 @@
 		};
 		7B7189652007394A008E5965 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03598558CB836F30FEC79C3C /* Pods-HXServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HXServer/HXServer.entitlements;
@@ -429,6 +549,7 @@
 		};
 		7B7189662007394A008E5965 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A812B3DCE1B6D4A20CA006B /* Pods-HXServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HXServer/HXServer.entitlements;
