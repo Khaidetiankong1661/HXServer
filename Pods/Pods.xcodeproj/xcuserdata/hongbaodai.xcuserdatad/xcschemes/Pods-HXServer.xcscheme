@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C409A2D4D4FD54A29AA2CC14F4151FA7"
+               BlueprintIdentifier = "F0DDD81CDB6FCC51CB1A6DAC77922EDE"
                BuildableName = "Pods_HXServer.framework"
                BlueprintName = "Pods-HXServer"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C409A2D4D4FD54A29AA2CC14F4151FA7"
+            BlueprintIdentifier = "F0DDD81CDB6FCC51CB1A6DAC77922EDE"
             BuildableName = "Pods_HXServer.framework"
             BlueprintName = "Pods-HXServer"
             ReferencedContainer = "container:Pods.xcodeproj">

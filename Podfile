@@ -4,7 +4,6 @@
 target 'HXServer' do
   
   use_frameworks!
-  pod 'ProtocolBuffers-Swift'
 
  
 
