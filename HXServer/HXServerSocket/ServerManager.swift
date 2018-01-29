@@ -9,7 +9,7 @@
 import Cocoa
 
 class ServerManager : NSObject {
-    fileprivate lazy var serverSocket :TCPServer = TCPServer(addr: "0.0.0.0", port: 7878)
+    fileprivate lazy var serverSocket :TCPServer = TCPServer(addr: "192.168.1.155", port: 1233)
     fileprivate var isServerRunning : Bool = false
     
     fileprivate lazy var clientMrgs : [ClientManager]  = [ClientManager]()

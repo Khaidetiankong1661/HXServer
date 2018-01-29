@@ -30,6 +30,10 @@ extension ClientManager {
     
     func startReadMsg() {
         isClientConnected = true
+        let timer = Timer(fireAt: Date(), interval: 1, target: self, selector: #selector(checkHeartBeat), userInfo: nil, repeats: true)
+        RunLoop.current.add(timer, forMode: .commonModes)
+        timer.fire()
+        
         while isClientConnected {
             if let lMsg = tcpClient.read(4) {
                 // 1：读取整个data 长度 的data
